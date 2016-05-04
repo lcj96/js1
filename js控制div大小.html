@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}">
+		<title></title>
+	<style type="text/css">
+		#all{
+			width: 300px;
+			height: 300px;
+			background-color: blue;
+			margin: 0 auto;
+			margin-top: 10%;
+		}
+		
+		</style>
+	</head>
+	<body>
+		<div id="all">
+			
+				<button id="change">change</button>
+				
+			
+				<button id="back">back</button>
+						
+		</div>	
+	</body>
+	<script>
+			
+				/*
+		function $(dom){		
+			 return document.getElementById(dom);
+			}	//对于代码的简化说明		 
+			$('change').onclick = function(){
+				$('all').style.width = '800px';
+				$('all').style.backgroundColor = 'red';
+			}//用类似jQuery的写法找到id，省去赋值过程
+				$('all').style.backgroundColor = ' blue';
+			$('back').onclick = function(){
+				$('all').style.width = '300px';
+				$('all').style.backgroundColor = 'blue';
+				}
+		*/
+		
+		var x=document.getElementById('all');
+		var y=document.getElementById('change');
+		var z=document.getElementById('back');
+		
+		y.onclick =function (){
+			x.style.backgroundColor='red';
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+	</script>	
+</html>
